@@ -41,7 +41,7 @@ You may need administrative permissions to continue with the installation.
 ```sh
 $ truffle init
 ```
-3.	Configure _truffle-config.js_ , replace it with the following content:
+3.	Configure _truffle-config.js_, replace it with the following content:
 ```js
 module.exports = {
   networks: {
@@ -67,7 +67,7 @@ $ truffle console
 5.	Select the default account where transactions such as contract deployment will occur by default. In this exercise, choose the first account, then add it to _truffle-config.js_.
  
 ## Implement and Deploy a Smart Contract
-1.	To jumpstart things, let’s use Truffle to create a contract template file for us on the correct directory:
+1.	To jumpstart things, use Truffle to create a contract template file for us on the correct directory:
 ```sh
 $ truffle create contract SimpleStorage
 ```
